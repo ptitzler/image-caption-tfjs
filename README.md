@@ -1,7 +1,5 @@
 # image-caption-tensorflowjs
 
-## Build sample 
-
 1. Download sample and install development prerequisites
 
   ```
