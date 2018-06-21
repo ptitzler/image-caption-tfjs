@@ -16,7 +16,7 @@
 
 3. Open the sample
  
- If you are using a browser other than Google Chrome open `dist/index.html`. Otherwise run the following commands and open the displayed URL. 
+   If you are using a browser other than Google Chrome open `dist/index.html`. Otherwise run the following commands and open the displayed URL. 
 
    ```
    $ cd dist
