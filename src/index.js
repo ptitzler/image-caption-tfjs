@@ -8,7 +8,12 @@ async function loadandscore(model_url, weights_url) {
 	const model = await loadFrozenModel(model_url, weights_url);
 	console.log('Loaded model');
 	const cat = document.getElementById('testimg');
-	model.execute({input: tf.fromPixels(cat)});
+	//model.execute({
+	//	input: tf.fromPixels(cat),
+		//input_feed:
+		//lstm/state_feed
+	//});
+	model.predict(tf.fromPixels(cat));
 }
 
 loadandscore(MODEL_URL,WEIGHTS_URL)

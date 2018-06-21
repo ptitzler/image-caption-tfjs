@@ -11,7 +11,7 @@
 2. Bundle the assets
 
   ```
-  $  ./node_modules/.bin/webpack
+  $  npm run build
   ```
 
  3. Open the sample
