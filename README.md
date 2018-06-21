@@ -2,25 +2,25 @@
 
 1. Download sample and install development prerequisites
 
-  ```
-  $ git clone https://github.com/ptitzler/image-caption-tensorflowjs.git
-  $ cd image-caption-tensorflowjs
-  $ npm install
-  ```
+    ```
+    $ git clone https://github.com/ptitzler/image-caption-tensorflowjs.git
+    $ cd image-caption-tensorflowjs
+    $ npm install
+    ```
 
 2. Bundle the assets
 
-  ```
-  $  npm run build
-  ```
+    ```
+    $  npm run build
+    ```
 
- 3. Open the sample
+3. Open the sample
  
- Open `dist/index.html` in a web browser.
- 
- Note: If you are using Google Chrome run the following command and open the displayed URL in the web browser.
+ If you are using a browser other than Google Chrome open `dist/index.html`. Otherwise run the following commands and open the displayed URL. 
 
-  ```
-  $ cd dist
-  $ python3 -m http.server
-  ```
+   ```
+   $ cd dist
+   $ python3 -m http.server
+   ```
+
+ 
