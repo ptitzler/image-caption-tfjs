@@ -1,5 +1,9 @@
 # image-caption-tensorflowjs
 
+Under development
+
+## Javascript (browser)
+
 1. Download sample and install development prerequisites
 
     ```
@@ -11,7 +15,7 @@
 2. Bundle the assets
 
     ```
-    $  npm run build
+    $ npm run build
     ```
 
 3. Open the sample
@@ -22,4 +26,5 @@
    $ npm start
    ```
 
+## Node.js (server-side)
  
